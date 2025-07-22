@@ -4,4 +4,4 @@ def exposure_value(shutter, aperature, ISO):
         return round(ev,2)
     except Exception as e:
         return f"Error: {e}"
-print(exposure_value(1/125, 2.8, dog))
+print(exposure_value(1/125, 2.8, 250))
