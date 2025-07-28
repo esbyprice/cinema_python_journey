@@ -1,2 +1,6 @@
 Log Start
 ISO: 400
+Logged at: 2025-07-25 08:59:37.823898
+Light: 1000 lux | Motion: fast | DoF: deep
+ISO: 1250 | Shutter: 1/1000 | Aperture: f/8
+------------------------------

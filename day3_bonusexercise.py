@@ -1,3 +1,6 @@
+# commit message help
+
+
 def exposure_value(shutter, aperature, ISO):
     try:
         ev = (aperature ** 2) / shutter * (100 / ISO)

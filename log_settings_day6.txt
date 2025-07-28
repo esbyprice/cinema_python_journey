@@ -1,0 +1,12 @@
+Logged AT: 2025-07-23 09:38:57.299926
+Logged AT: 2025-07-23 09:44:09.445869
+Iso: 1250
+Shutter Speed: 1/100
+ aperture:f/2.8
+ motion:slow
+ depth of field:shallow
+Logged AT: 2025-07-24 08:51:11.665969
+Iso: 2500
+Shutter Speed: 1/1000
+motion:FAST
+--------------------
