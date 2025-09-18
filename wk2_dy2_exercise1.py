@@ -5,7 +5,7 @@ class CameraSetting:
         self.aperture=aperture
     
     def describe(self):
-        return f"iso:{self.iso}, ss: {self.shutter}, iris: f/{self.aperture}"
+        return f"iso:{self.iso}, ss: {self.shutter}, iris: {self.aperture}"
     
 class CameraRig:
     def __init__(self, name):
@@ -18,6 +18,11 @@ class CameraRig:
     def list_settings(self):
         for s in self.settings:
             print(s.describe())
+
+    def save_rig(self):
+        with open("wk2_dy2_log.txt", "a") as file:
+            file.write 
+
 
 macro=CameraSetting(400,"1/200", "f/2.8")
 studio=CameraSetting(800,"1/400", "f/4")

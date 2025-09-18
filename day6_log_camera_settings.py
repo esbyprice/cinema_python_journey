@@ -16,7 +16,7 @@ def log_camera_settings():
         file.write(f"Logged AT: {now}\n")
         file.write(f"Iso: {iso}\n")
         file.write(f"Shutter Speed: {shutter}\n")
-        file.write(f"motion:{motion}\n")
+        file.write(f"motion: {motion}\n")
         file.write("-" * 20 + "\n")
     
     print(f"Settings logged into log_settings_day6.txt @ {now}")

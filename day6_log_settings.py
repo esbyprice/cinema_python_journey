@@ -16,8 +16,8 @@ with open("log_settings_day6.txt", "a") as file:
     file.write(f"Logged AT: {now}\n")
     file.write(f"Iso: {iso}\n")
     file.write(f"Shutter Speed: {shutter}\n")
-    file.write(f" aperture:{f_stop}\n")
-    file.write(f" motion:{motion}\n")
-    file.write(f" depth of field:{dof}\n")
+    file.write(f"aperture:{f_stop}\n")
+    file.write(f"motion:{motion}\n")
+    file.write(f"depth of field:{dof}\n")
 with open("log_settings_day6.txt", "r") as file:
         print(file.read())
