@@ -9,9 +9,9 @@ class CameraSetting:
     def describe(self):
         return f"iso:{self.iso}, shutter:{self.shutter}, iris:{self.aperature}"
     
-    def log_to_file(self,log_file.txt):
+    def log_to_file(self,filename):
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open(log_file.txt, "a") as file:
+        with open(filename, "a") as file:
             file.write(f"[{now}] {self.describe()}\n]")
     
         
@@ -37,4 +37,4 @@ user_settings=CameraSetting(iso, aperature, shutter)
 
 user_settings.log_to_file("log_file.txt")
 
-print("settings have been muthafuckin logged BIATCH")
+print("settings have been logged")

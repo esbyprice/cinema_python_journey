@@ -22,7 +22,13 @@ class CameraRig:
         for s in self.settings:
             print(s.describe())
     
-    def log_to_file(self,log_file.txt):
+    def log_to_file(self,filename):
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open(log_file.txt, "a") as file:
+        with open(filename, "a") as file:
             file.write(f"[{now}] {self.describe()}\n]")
+
+daylight = CameraSetting(200,1/60,2.8)
+rig1 = CameraRig("Daylight")
+rig1.add_setting(daylight)
+rig1.list_settings()
+rig1.log_to_file(daylight, "log_file.txt")
