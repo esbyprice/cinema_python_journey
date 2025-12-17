@@ -29,17 +29,18 @@ class CameraRig:
             print(s)
     
     def summarize(self):
-        print(f"{self.name}")
+        # print(f'{self.name}+{self.settings}')
+        # print(f"{self.name}")
         for setting in self.settings:
             print(setting)
+            
+print(__name__)
+# setting1=CameraSetting(100, 1/1000, 2)
+# setting2=CameraSetting(2500,1/400, 16)
+# rig1=CameraRig("Sunny")
+# rig2=CameraRig("Real HIGH ISO")
+# rig1.add_setting(setting1)
+# rig2.add_setting(setting2)
 
-
-setting1=CameraSetting(100, 1/1000, 2)
-setting2=CameraSetting(2500,1/400, 16)
-rig1=CameraRig("Sunny")
-rig2=CameraRig("Real HIGH ISO")
-rig1.add_setting(setting1)
-rig2.add_setting(setting2)
-
-rig1.summarize()
-rig2.summarize()
+# rig1.summarize()
+# rig2.summarize()
